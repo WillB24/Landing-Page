@@ -151,9 +151,11 @@ button {
 }
 .box-three {
     margin-bottom: 80px;
-    padding-bottom: 80px;
+    padding 20px;
     text-align: center;
+    color: #F9FAF8;
     background-color: #3882F6;
+    background-clip: padding-box;
 }
 h5 {
     text-align: end;
