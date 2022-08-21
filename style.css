@@ -126,11 +126,13 @@ button {
     margin-right:100px;
     margin-bottom: 80px;
     padding: 30px;
-    text-align: left;
+    align-items: center;
     color: #F9FAF8;
     background-color: #3882F6;
     background-clip: padding-box;
     border-radius: 8px;
+    display: flex;
+    text-align: left;
 }
 h5 {
     text-align: end;
@@ -150,5 +152,4 @@ footer {
     height: 25px;
     border-radius: 8px;
     border-color: #F9FAF8;
-
 }
