@@ -2,4 +2,4 @@
 
 My version of the Odin Project Landing Page.
 
-Need to work on my condesing.
+Need to work on my condensing.
