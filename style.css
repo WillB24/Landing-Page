@@ -13,6 +13,7 @@ img{
     width: 450px;
     height: 320px;
     padding-top: 50px;
+    filter: hue-rotate(180deg);
 }
 h1,
 h2{
@@ -87,7 +88,6 @@ button {
     color: #1F2937;
 }
 .square-container {
-    padding-bottom: 50px;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -105,26 +105,21 @@ button {
     padding:5px;
 }
 .box-two {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin: 70px 0 70px 0;
+    padding: 70px 0 70px 0;
     text-align: center;
     background-color: #E5E7EB;
-    padding-top: 70px;
-    padding-bottom: 70px;
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
 }
 .quote {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: 0 70px 0 70px;
     display: flex;
     text-align: justify;
 }
 .box-three {
-    margin-left: 100px;
-    margin-right:100px;
-    margin-bottom: 80px;
+    margin: 0 100px 80px 100px;
     padding: 30px;
     align-items: center;
     color: #F9FAF8;
@@ -139,11 +134,10 @@ h5 {
     margin-right: 30px;
 }
 footer {
+    padding: 10px 0 10px 0;
     text-align: center;
     color: #FFFFFF;
     background-color: #1F2937;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 .button {
     background-color: #3882F6;
